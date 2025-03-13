@@ -71,6 +71,5 @@ app.get('/speedlimit', async (req, res) => {
     }
 });
 
-app.listen(PORT, () => {
-    console.log(`Server läuft auf Port ${PORT}`);
+
 });
