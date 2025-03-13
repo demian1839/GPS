@@ -42,9 +42,6 @@ app.listen(PORT, () => {
     console.log(`Server läuft auf Port ${PORT}`);
 });
 
-const app = express();
-const PORT = process.env.PORT || 3000;
-
 app.use(cors()); // Erlaubt CORS für alle Anfragen
 
 app.get('/speedlimit', async (req, res) => {
