@@ -1,0 +1,16 @@
+{
+  "name": "gps-speed-tracker",
+  "version": "1.0.0",
+  "description": "Ein einfacher GPS KM/H Tracker mit Geschwindigkeitslimit-Abfrage über OpenStreetMap",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "axios": "^0.21.1",
+    "cors": "^2.8.5"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Demian",
+  "license": "MIT"
+}
