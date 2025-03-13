@@ -42,7 +42,6 @@ app.listen(PORT, () => {
     console.log(`Server läuft auf Port ${PORT}`);
 });
 
-const express = require('express');
 const axios = require('axios');
 const cors = require('cors');
 
